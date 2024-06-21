@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+
+@font-face {
+    font-family: 'CustomFontName';
+    src: url('../src/Proxima-Nova-Extra-Condensed/Demo_Fonts/Fontspring-DEMO-proximanova-light.otf') format('woff2'),
+         url('../src/Proxima-Nova-Extra-Condensed/Demo_Fonts/Fontspring-DEMO-proximanovaexcn-black.otf') format('woff');
+    /* Add other font formats if available */
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  /* Custom Font Usage */
+  .custom-font {
+    font-family: 'CustomFontName', sans-serif;
+  }
+  
+
+
+
+
+@tailwind utilities;
